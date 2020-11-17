@@ -31,6 +31,7 @@ public class ShiroTest {
         //5.1 先判断是否认证通过，没有认证过，才认证
         boolean authenticated = subject.isAuthenticated();
         System.out.println("authenticated:" + authenticated);
+		System.out.println("git远程测试");
         //5.2没认证过，开始认证
         if (!subject.isAuthenticated()) {
             try {
